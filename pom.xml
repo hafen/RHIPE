@@ -7,7 +7,7 @@
     <version>0.75.2</version>
     <packaging>jar</packaging>
     <name>Rhipe</name>
-    <url>https://github.com/tesseradata/RHIPE</url>
+    <url>https://github.com/delta-rho/RHIPE</url>
 
     <properties>
         <!--<hadoop.version>2.3.0-cdh5.0.0</hadoop.version>-->

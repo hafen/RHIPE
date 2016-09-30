@@ -2,11 +2,11 @@
 
 # RHIPE: R and Hadoop Integrated Programming Environment #
 
-RHIPE is an R package that provides a way to use Hadoop from R.  It can be used on its own or as part of the [Tessera](tessera.io) environment.
+RHIPE is an R package that provides a way to use Hadoop from R.  It can be used on its own or as part of the [DeltaRho](deltarho.org) environment.
 
 ## Installation ##
 
-Installation of RHIPE requires a working Hadoop cluster and several prerequisites.  A comprehensive installation guide, as well as other options to get an environment set up (Vagrant, Amazon Web Services, etc.) are discussed [here](http://tessera.io/#quickstart).
+Installation of RHIPE requires a working Hadoop cluster and several prerequisites.  A comprehensive installation guide, as well as other options to get an environment set up (Vagrant, Amazon Web Services, etc.) are discussed [here](http://deltarho.org/#quickstart).
 
 If you are interested in installing and using RHIPE, please see the link just provided.  The remainder of this README will focus on developers who want to build RHIPE from source or contribute to RHIPE development.
 
@@ -28,7 +28,7 @@ There are several Hadoop distributions avaialble.  RHIPE has been successfully b
 
 ## Building Rhipe ##
 
-Probably the easiest way to build RHIPE is to provision a [Vagrant](https://github.com/tesseradata/install-vagrant) machine that has all the prerequisites configured.  Another option is to set up a local pseudo-distributed Hadoop cluster, for example see [here](https://github.com/hafen/RHIPE/blob/master/cdh5-on-mac.md).
+Probably the easiest way to build RHIPE is to provision a [Vagrant](https://github.com/delta-rho/install-vagrant) machine that has all the prerequisites configured.  Another option is to set up a local pseudo-distributed Hadoop cluster, for example see [here](https://github.com/hafen/RHIPE/blob/master/cdh5-on-mac.md).
 
 If you set up your own machine, you will need to make sure the following dependencies are met, beyond Hadoop:
 
